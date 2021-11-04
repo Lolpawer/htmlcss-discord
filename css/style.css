@@ -8,45 +8,62 @@
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.box {
-    background-image: url(../img/jumbo.png);
-    background-size: cover;
-    height: 70vh;
-}
-
-.row {
-    width: 100%;
-}
-
-.row::after {
-    content:"";
-    display: table;
-    clear: both;
-}
-
 .container {
     width: 1200px;
     margin: 0 auto;
-    padding-top: 20px;
+}
+
+.box {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    height: 600px;
 }
 
 .button {
     background-color: #ffffff;
-    padding: 10px 15px;
-    border-radius: 20px;
+    padding: 0 20px;
+    border-radius: 25px;
 }
 
-/* Primo box */
+/* Primo Box */
+
+.nav {
+    width: 100%;
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+    padding-top: 10px;
+}
 
 .logo {
-    float: left;
+    position: absolute;
+    left: 0;
+}
+
+.logo img {
+    vertical-align: middle;
 }
 
 .navbar {
-    display: inline-block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    list-style: none;
 }
 
-.access{
-    float: right;
+.navbar li {
+    display: inline-block;
+    padding-right: 30px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.access {
+    position: absolute;
+    right: 0;
     font-weight: bold;
 }
