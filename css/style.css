@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.font {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.box {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    height: 70vh;
+}
+
+.row {
+    width: 100%;
+}
+
+.row::after {
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.button {
+    background-color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+/* Primo box */
+
+.logo {
+    float: left;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.access{
+    float: right;
+    font-weight: bold;
+}
