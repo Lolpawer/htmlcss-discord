@@ -20,6 +20,10 @@
     position: relative;
 }
 
+.box-gray {
+    background-color: #f6f6f6;
+}
+
 .button {
     background-color: #ffffff;
     padding: 0 20px;
@@ -160,15 +164,11 @@
 }
 
 .wave img {
-    vertical-align: bottom;
+    display: block;
 }
 
 .upsidedown {
     transform: scaleY(-1);
-}
-
-.box-gray {
-    background-color: #f6f6f6;
 }
 
 .box-odd {
@@ -197,4 +197,47 @@
 .box-odd.text p {
     font-size: 25px;
     margin-top: 20px;
+}
+
+/* Quinto box */
+
+.box-5.text{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.box-5.text h2{
+    font-size: 50px;
+}
+
+.box-5.text p {
+    font-size: 25px;
+}
+
+.box-5.img {
+        text-align: center;
+}
+
+.end {
+    text-align: center;
+    padding-bottom: 90px;
+}
+
+.end h3 {
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: fit-content;
+    margin: 0 auto;
+    padding: 30px 30px;
+}
+
+.mac {
+    background-color: #89a2e6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
 }
